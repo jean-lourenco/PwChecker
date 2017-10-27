@@ -15,7 +15,7 @@ namespace PwCheckerLib
             Client.DefaultRequestHeaders.UserAgent.ParseAdd("PwChecker/1.0");
         }
 
-        public async static Task<bool> IsCompromissedAsync(string password)
+        public async static Task<bool> IsCompromisedAsync(string password)
         {
             var data = new FormUrlEncodedContent(new[] {
                 new KeyValuePair<string, string>("Password", password )
