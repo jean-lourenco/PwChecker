@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <PackageId>PwChecker</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Jean Lourenço</Authors>
+    <Title>PwChecker</Title>
+    <Description>Check if a password(string) is compromised using the haveibeenpwned.com API</Description>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jean-lourenco/PwChecker</PackageProjectUrl>
+    <PackageTags>password util</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <RootNamespace>PwCheckerLib</RootNamespace>
+  </PropertyGroup>
+</Project>
